@@ -1,0 +1,17 @@
+# Ignorar a pasta .vs
+.vs/
+
+# Ignorar arquivos de build
+bin/
+obj/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração do usuário
+*.suo
+*.user
+*.userprefs
+
+# Ignorar arquivos de backup do Visual Studio
+*.vscode/
