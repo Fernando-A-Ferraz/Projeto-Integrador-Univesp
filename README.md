@@ -38,7 +38,7 @@ Durante o semestre, os alunos têm autonomia para pesquisar, organizar e desenvo
 
 Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
-- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
 - [Visual Studio](https://visualstudio.microsoft.com/) (ou outro IDE de sua preferência)
 
