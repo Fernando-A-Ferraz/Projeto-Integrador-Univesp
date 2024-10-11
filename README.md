@@ -71,10 +71,11 @@ Encontre a parte com "ConnectionStrings" e substitua as informações por suas c
 
 ## 3. Instale o .Net Framework
 
-No terminal de o comando
+No terminal voce digital
 
 dotnet tool install --global dotnet-ef
- 
+
+
 ## 4. **Execute as migrações do Entity Framework:**
 
 Para configurar o banco de dados, você precisa aplicar as migrações. No terminal (ainda dentro da pasta do projeto), execute o seguinte comando:
