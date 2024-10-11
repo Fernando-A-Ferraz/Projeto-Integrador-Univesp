@@ -50,13 +50,11 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
    
 
 
-   4. **Execute a aplicação:**
-
+4. **Execute a aplicação:**
 
    dotnet run
    
-
-   5. **Acesse a aplicação:**
+5. **Acesse a aplicação:**
    
 
    Abra o navegador e acesse  http://localhost:5192
