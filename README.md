@@ -2,7 +2,7 @@
 
 # Mercadinho Chapadão - Projeto Integrador da UNIVESP
 
-Este projeto, chamado **Mercadinho Chapadão**, faz parte de um Projeto Integrador (PI) da Universidade Virtual do Estado de São Paulo (UNIVESP). O Projeto Integrador é uma atividade curricular obrigatória que visa a resolução de problemas reais, contextualizados dentro da área profissional do curso de Engenharia da Computação.
+Este projeto, chamado **Mercadinho Chapadão**, faz parte de um Projeto Integrador (PI) da Universidade Virtual do Estado de São Paulo (UNIVESP). O Projeto Integrador é uma atividade curricular obrigatória que visa a resolução de problemas reais, contextualizados dentro da área profissional dos cursos da aréa de tecnoligia colocando alunos em grupos de 8 participantes para trabalharem em equipe, a equipe dete projeto tem seus 8 participantes trabalhando em conjunto de fomra online .
 
 A cada semestre, o tema do PI é alterado, porém a metodologia se mantém constante. Em grupo, os estudantes identificam um problema relacionado ao tema proposto e desenvolvem uma solução prática, aplicando os conhecimentos adquiridos nas disciplinas cursadas até o momento.
 
