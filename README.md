@@ -1,6 +1,23 @@
-# Mercadinho Chapadão
 
-Este é o projeto para o Mercadinho Chapadão é uma aplicação web para gerenciar produtos de um mercadinho. Vai permitir criar, editar, visualizar e deletar produtos, além de exibir uma lista de produtos com informações detalhadas.
+
+# Mercadinho Chapadão - Projeto Integrador da UNIVESP
+
+Este projeto, chamado **Mercadinho Chapadão**, faz parte de um Projeto Integrador (PI) da Universidade Virtual do Estado de São Paulo (UNIVESP). O Projeto Integrador é uma atividade curricular obrigatória que visa a resolução de problemas reais, contextualizados dentro da área profissional do curso de Engenharia da Computação.
+
+A cada semestre, o tema do PI é alterado, porém a metodologia se mantém constante. Em grupo, os estudantes identificam um problema relacionado ao tema proposto e desenvolvem uma solução prática, aplicando os conhecimentos adquiridos nas disciplinas cursadas até o momento.
+
+Durante o semestre, os alunos têm autonomia para pesquisar, organizar e desenvolver o projeto, recebendo orientação semanal de um professor orientador. O projeto está estruturado em cinco etapas:
+
+1. **Ouvir**  
+2. **Definir**  
+3. **Idear**  
+4. **Prototipar**  
+5. **Testar**
+
+
+## **Explicando o projeto**
+
+É uma aplicação web para gerenciar produtos de um mercadinho. Vai permitir criar, editar, visualizar e deletar produtos, além de exibir uma lista de produtos com informações detalhadas.
 
 ## Funcionalidades
 
@@ -29,7 +46,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
 Siga os passos abaixo para configurar o projeto em sua máquina local:
 
-1. **Clone o repositório:**
+## 1. **Clone o repositório:**
 
  **Instale o Git**
 Se ainda não tiver o Git instalado, baixe e instale [aqui](https://git-scm.com/). Ele permite que você copie projetos do GitHub para sua máquina.
@@ -41,7 +58,7 @@ Abra o terminal (ou prompt de comando no Windows) e execute o seguinte comando p
 git clone https://github.com/Fernando-A-Ferraz/Projeto-Integrador-Univesp
 
 
-2. **Configure o banco de dados:**
+## 2. **Configure o banco de dados:**
 
    - No diretório do projeto, você encontrará um arquivo chamado appsettings.json. Abra este arquivo com um editor de texto (como o Notepad ou Visual Studio Code).
 
@@ -53,7 +70,7 @@ Encontre a parte com "ConnectionStrings" e substitua as informações por suas c
    }
 
  
-3. **Execute as migrações do Entity Framework:**
+## 3. **Execute as migrações do Entity Framework:**
 
 Para configurar o banco de dados, você precisa aplicar as migrações. No terminal (ainda dentro da pasta do projeto), execute o seguinte comando:
 
@@ -61,13 +78,13 @@ Para configurar o banco de dados, você precisa aplicar as migrações. No termi
    
 
 
-4. **Execute a aplicação:**
+## 4. **Execute a aplicação:**
 
 Para rodar o projeto, use o seguinte comando no terminal:
 
    dotnet run
    
-5. **Acesse a aplicação:**
+## 5. **Acesse a aplicação:**
 
    Após a aplicação iniciar, abra seu navegador e vá para:
    
