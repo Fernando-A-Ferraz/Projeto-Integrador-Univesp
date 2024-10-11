@@ -53,7 +53,7 @@ Se ainda não tiver o Git instalado, baixe e instale [aqui](https://git-scm.com/
 
  **Clone o projeto para sua máquina**
 
-Abra o terminal (ou prompt de comando no Windows) e execute o seguinte comando para copiar o projeto (precisa copiar toda a linha para daro comando git clone):
+Abra o terminal (ou prompt de comando no Windows) e execute o seguinte comando para copiar o projeto (precisa copiar toda a linha para dar o comando git clone):
 
 git clone https://github.com/Fernando-A-Ferraz/Projeto-Integrador-Univesp
 
@@ -88,7 +88,7 @@ Para rodar o projeto, use o seguinte comando no terminal:
 
    Após a aplicação iniciar, abra seu navegador e vá para:
    
- e acesse  http://localhost:5192
+ http://localhost:5192
    
  
 
