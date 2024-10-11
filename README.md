@@ -1,6 +1,6 @@
 # Mercadinho Chapadão
 
-Este é o projeto Mercadinho Chapadão, uma aplicação web para gerenciar produtos de um mercadinho. A aplicação permite criar, editar, visualizar e deletar produtos, além de exibir uma lista de produtos com informações detalhadas.
+Este é o projeto para o Mercadinho Chapadão é uma aplicação web para gerenciar produtos de um mercadinho. Vai permitir criar, editar, visualizar e deletar produtos, além de exibir uma lista de produtos com informações detalhadas.
 
 ## Funcionalidades
 
