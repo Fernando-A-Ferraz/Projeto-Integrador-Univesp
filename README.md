@@ -69,8 +69,13 @@ Encontre a parte com "ConnectionStrings" e substitua as informações por suas c
       DefaultConnection: Server=SEU_SERVIDOR;Database=MercadinhoChapadao;User Id=SEU_USUARIO;Password=SUA_SENHA;
    }
 
+## 3. Instale o .Net Framework
+
+No terminal de o comando
+
+dotnet tool install --global dotnet-ef
  
-## 3. **Execute as migrações do Entity Framework:**
+## 4. **Execute as migrações do Entity Framework:**
 
 Para configurar o banco de dados, você precisa aplicar as migrações. No terminal (ainda dentro da pasta do projeto), execute o seguinte comando:
 
@@ -78,13 +83,13 @@ Para configurar o banco de dados, você precisa aplicar as migrações. No termi
    
 
 
-## 4. **Execute a aplicação:**
+## 5. **Execute a aplicação:**
 
 Para rodar o projeto, use o seguinte comando no terminal:
 
    dotnet run
    
-## 5. **Acesse a aplicação:**
+## 6. **Acesse a aplicação:**
 
    Após a aplicação iniciar, abra seu navegador e vá para:
    
