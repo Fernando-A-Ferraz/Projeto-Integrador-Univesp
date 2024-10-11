@@ -47,16 +47,17 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
 3. **Execute as migrações do Entity Framework:**
 
    dotnet ef database update
+   
 
 
    4. **Execute a aplicação:**
 
 
    dotnet run
+   
 
    5. **Acesse a aplicação:**
-
-   Abra o navegador e acesse 5. **Acesse a aplicação:**
+   
 
    Abra o navegador e acesse  http://localhost:5192
    
