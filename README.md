@@ -31,20 +31,31 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
 
 1. **Clone o repositório:**
 
-   git clone https://github.com/seu-usuario/mercadinho-chapadao.git cd mercadinho-chapadao
+ **Instale o Git**
+Se ainda não tiver o Git instalado, baixe e instale [aqui](https://git-scm.com/). Ele permite que você copie projetos do GitHub para sua máquina.
+
+ **Clone o projeto para sua máquina**
+
+Abra o terminal (ou prompt de comando no Windows) e execute o seguinte comando para copiar o projeto:
+
+git clone https://github.com/seu-usuario/mercadinho-chapadao.git
 
    
 2. **Configure o banco de dados:**
 
-   - Abra o arquivo `appsettings.json` e configure a string de conexão com o seu SQL Server.
-   -
-      "ConnectionStrings": {
-   "DefaultConnection": "Server=SEU_SERVIDOR;Database=MercadinhoChapadao;User Id=SEU_USUARIO;Password=SUA_SENHA;"
+   - No diretório do projeto, você encontrará um arquivo chamado appsettings.json. Abra este arquivo com um editor de texto (como o Notepad ou Visual Studio Code).
 
- }
+Encontre a parte com "ConnectionStrings" e substitua as informações por suas credenciais de banco de dados do SQL Server:
+   
+   ConnectionStrings:
+   { 
+      DefaultConnection: Server=SEU_SERVIDOR;Database=MercadinhoChapadao;User Id=SEU_USUARIO;Password=SUA_SENHA;
+   }
 
  
 3. **Execute as migrações do Entity Framework:**
+
+Para configurar o banco de dados, você precisa aplicar as migrações. No terminal (ainda dentro da pasta do projeto), execute o seguinte comando:
 
    dotnet ef database update
    
@@ -52,12 +63,15 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
 
 4. **Execute a aplicação:**
 
+Para rodar o projeto, use o seguinte comando no terminal:
+
    dotnet run
    
 5. **Acesse a aplicação:**
-   
 
-   Abra o navegador e acesse  http://localhost:5192
+   Após a aplicação iniciar, abra seu navegador e vá para:
+   
+ e acesse  http://localhost:5192
    
  
 
