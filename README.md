@@ -38,8 +38,9 @@ Se ainda não tiver o Git instalado, baixe e instale [aqui](https://git-scm.com/
 
 Abra o terminal (ou prompt de comando no Windows) e execute o seguinte comando para copiar o projeto:
 
-git clone [Clone o repositório](https://github.com/seu-usuario/mercadinho-chapadao.git)
-   
+git clone https://github.com/seu-usuario/mercadinho-chapadao.git
+
+
 2. **Configure o banco de dados:**
 
    - No diretório do projeto, você encontrará um arquivo chamado appsettings.json. Abra este arquivo com um editor de texto (como o Notepad ou Visual Studio Code).
