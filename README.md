@@ -36,7 +36,7 @@ Se ainda não tiver o Git instalado, baixe e instale [aqui](https://git-scm.com/
 
  **Clone o projeto para sua máquina**
 
-Abra o terminal (ou prompt de comando no Windows) e execute o seguinte comando para copiar o projeto:
+Abra o terminal (ou prompt de comando no Windows) e execute o seguinte comando para copiar o projeto (precisa copiar toda a linha para daro comando git clone):
 
 git clone https://github.com/seu-usuario/mercadinho-chapadao.git
 
