@@ -3,16 +3,18 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adicione o serviço do DbContext
+// Adicione o serviï¿½o do DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Adicione serviços para Razor Pages
+
+
+// Adicione serviï¿½os para Razor Pages
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Configure o pipeline de requisições HTTP
+// Configure o pipeline de requisiï¿½ï¿½es HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
