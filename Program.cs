@@ -15,7 +15,7 @@ builder.Services.AddRazorPages();
 var app = builder.Build();
 
 // Configure o pipeline de requisi��es HTTP
-if (!app.Environment.IsDevelopment())
+if (!app.Environment.IsProduction())
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
